@@ -26,7 +26,7 @@ const sendMessage = require("../utils/sendMessage");
 
 const runSchedule = () => {
   // ⏱ Har 1 minute me run kare
-  cron.schedule("*/1 * * * *", () => {
+  cron.schedule("*/10 * * * *", () => {
     const today = new Date();
     const day = today.getDate();
     const hour = today.getHours();
