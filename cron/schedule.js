@@ -35,7 +35,7 @@ const runSchedule = () => {
     console.log(`🕒 Current time: ${hour}:${minute}, 📅 Day: ${day}`);
 
     // 🧪 Testing ke liye aaj ki date aur koi bhi time chalega
-    if (day === 12) {
+    if (day === 31) {
       console.log("📤 Test message sending...");
       sendMessage();
     }
