@@ -16,7 +16,7 @@ const sendMessage = async () => {
     );
     console.log("Message send:", res.data.ok);
   } catch (err) {
-    console.log("Failed to send message:", err.message);
+    console.log("Failed to send message:", err.response?.data || err.message);
   }
 };
 
