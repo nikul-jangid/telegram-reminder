@@ -12,7 +12,7 @@ const runSchedule = () => {
     );
 
     // 🧪 Testing ke liye aaj ki date aur koi bhi time chalega
-    if (day === 9) {
+    if (day === 10) {
       console.log("Test message sending...");
       sendMessage();
     }
